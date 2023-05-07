@@ -6,6 +6,6 @@ public class SpeedUp : Powerup
 {
     public override void ApplyPowerup()
     {
-        
+        p.moveSpeed += 5.0f;       
     }
 }

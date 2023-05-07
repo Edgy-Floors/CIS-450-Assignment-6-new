@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.E))
         {
-
+            tmp.text = "Health: " + health + ".\nDamage: " + damage + ".";
         }
     }
 }

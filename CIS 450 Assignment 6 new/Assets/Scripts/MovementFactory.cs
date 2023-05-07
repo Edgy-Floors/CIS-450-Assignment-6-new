@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class MovementFactory : PowerupFactory
 {
-    // Start is called before the first frame update
-    void Start()
+    public override void updateUI()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        spawndesc.text = "You have spanwed a Jupmp upgrade and a Speed upgrade.";
     }
 }

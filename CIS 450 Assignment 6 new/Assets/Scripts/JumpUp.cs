@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class JumpUp : Powerup
 {
-    
+    public override void ApplyPowerup()
+    {
+        p.jumpForce *= 2;
+    }
 }

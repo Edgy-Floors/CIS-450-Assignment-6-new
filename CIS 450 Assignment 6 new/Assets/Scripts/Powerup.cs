@@ -11,14 +11,14 @@ public abstract class Powerup : MonoBehaviour
         p = GameObject.Find("Player").GetComponent<Player>();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        ApplyPowerup();
+        if(other.CompareTag("Player"))
+        {
+            ApplyPowerup();
+            Destroy(gameObject);
+        }
     }
 
-
-    public virtual void ApplyPowerup()
-    {
-
-    }
+    public virtual void ApplyPowerup(){}
 }

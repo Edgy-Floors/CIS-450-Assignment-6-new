@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class DamageUp : Powerup
 {
-
+    public override void ApplyPowerup()
+    {
+        p.damage += 5;
+    }
 }
