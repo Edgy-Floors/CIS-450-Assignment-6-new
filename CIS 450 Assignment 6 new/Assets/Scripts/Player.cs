@@ -1,3 +1,10 @@
+/*
+ * EJ Flores
+ * Player.cs
+ * Assignment 6
+ * This is the script for controlling the player movements as well as the player's stats.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

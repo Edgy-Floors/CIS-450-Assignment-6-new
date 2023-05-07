@@ -1,3 +1,10 @@
+/*
+ * EJ Flores
+ * Powerup.cs
+ * Assignment 6
+ * This script acts as the base class for all of the concrete powerups. It takes a reference to a player and applies a powerup when the player collides with a powerup.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
